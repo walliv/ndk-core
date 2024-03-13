@@ -23,7 +23,7 @@ architecture CALYPTE of DMA_WRAPPER is
     constant USER_CLK_SAME_PCIE   : boolean := FALSE;
 
     constant MFB_LOOPBACK_EN      : boolean := FALSE;
-    constant LATENCY_METER_EN     : boolean := FALSE;
+    constant LATENCY_METER_EN     : boolean := TRUE;
     constant TX_DMA_DBG_CORE_EN   : boolean := FALSE;
     constant RX_DMA_DBG_CORE_EN   : boolean := FALSE;
 
